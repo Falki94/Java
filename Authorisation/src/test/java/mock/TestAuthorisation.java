@@ -41,15 +41,15 @@ public class TestAuthorisation extends Mockito {
         verify(response).sendRedirect("login.jsp");
     }
 
-    @Test
-    public void should_not_properly_redirect_user() throws IOException, ServletException {
-        HttpServletRequest request = mock(HttpServletRequest.class);
-        HttpServletResponse response = mock(HttpServletResponse.class);
-        HttpSession session = mock(HttpSession.class);
-        when(request.getSession()).thenReturn(session);
-        servlet.doGet(request, response);
-        verify(response).sendRedirect("login1.jsp");
-    }
+//    @Test
+//    public void should_not_properly_redirect_user() throws IOException, ServletException { 
+//        HttpServletRequest request = mock(HttpServletRequest.class);
+//        HttpServletResponse response = mock(HttpServletResponse.class);
+//        HttpSession session = mock(HttpSession.class);
+//        when(request.getSession()).thenReturn(session);
+//        servlet.doGet(request, response);
+//        verify(response).sendRedirect("login1.jsp");
+//    }
 
     @Test
     public void should_properly_check_user() throws IOException, ServletException, SQLException {
@@ -57,9 +57,9 @@ public class TestAuthorisation extends Mockito {
         assertEquals(repository.checkLogin("Admin", "admin"), UserType.ADMIN);
     }
 
-    @Test
-    public void should_not_properly_check_user() throws IOException, ServletException, SQLException {
-        when(repository.checkLogin("Admin", "admin")).thenReturn(UserType.ADMIN);
-        assertEquals(repository.checkLogin("Admin", "admin"), UserType.PREMIUM);
-    }
+//    @Test
+//    public void should_not_properly_check_user() throws IOException, ServletException, SQLException {
+//        when(repository.checkLogin("Admin", "admin")).thenReturn(UserType.ADMIN);
+//        assertEquals(repository.checkLogin("Admin", "admin"), UserType.PREMIUM);
+//    }
 }
