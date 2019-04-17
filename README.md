@@ -1,4 +1,4 @@
 # Java 
 # Maciej Falkiewicz
-Authorisation => Semestr  4
-account,date, employee, invoiceitem, palindrom, print, time => Semestr 2 ( lab3)
+Authorisation => Semestr  4 </br>
+account,date, employee, invoiceitem, palindrom, print, time => Semestr 2 ( lab3) <br>
