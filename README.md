@@ -1,3 +1,4 @@
 # Java 
-# Authorisation => Semestr  4 </br>
-account,date, employee, invoiceitem, palindrom, print, time => Semestr 2 </br>
+# Maciej Falkiewicz
+# Authorisation => Semestr  4
+# account,date, employee, invoiceitem, palindrom, print, time => Semestr 2
