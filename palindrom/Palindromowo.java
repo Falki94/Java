@@ -19,11 +19,12 @@ public class Palindromowo {
     }
 
     private boolean isPalindromowo(String x) {
-        x = x.toLowerCase();
-        String y = "";
-        for (int i = x.length() - 1; i >= 0; i--) {
-            y += x.charAt(i);
+        x=x.toLowerCase();
+        for (int i=0,j=x.length()-1;i<=x.length()/2;i++,j--){
+            if (x.charAt(i)!=x.charAt(j)){
+                return false;
+            }
         }
-        return x.equals(y);
+        return true;
     }
 }
