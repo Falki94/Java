@@ -1,5 +1,10 @@
 package cezar;
 
+/**
+ *
+ * @author Falki
+ */
+
 public class Cezar {
 
     public static String cypher(String tekst) {
