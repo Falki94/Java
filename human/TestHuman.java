@@ -1,4 +1,8 @@
 package human;
+/**
+ *
+ * @author Falki
+ */
 
 import static human.Human.Gender;
 
