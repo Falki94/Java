@@ -1,5 +1,8 @@
 package rectangle;
-
+/**
+ *
+ * @author Falki
+ */
 
 public class Rectangle {
     private double length;
