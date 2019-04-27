@@ -1,5 +1,10 @@
     package account;
 
+/**
+ *
+ * @author Falki
+ */
+
 public class TestAccount {
     public static void main(String[] args){
         Account a1 = new Account("acc12345", "Account1");
