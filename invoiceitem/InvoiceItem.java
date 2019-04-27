@@ -1,4 +1,8 @@
 package invoiceitem;
+/**
+ *
+ * @author Falki
+ */
 
 public class InvoiceItem {
     private String id;
