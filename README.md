@@ -1,4 +1,4 @@
 # Java 
 # Maciej Falkiewicz
-account,date, employee, invoiceitem, palindrom, print, time => ( lab3) <br>
-human,rectangle,triangle,cezar => (lab2) <br>
+POJ_03 => Lab 3 => account,date, employee, invoiceitem, palindrom, print, time <br>
+POJ_02 => Lab 2 => human,rectangle,triangle,cezar <br>
