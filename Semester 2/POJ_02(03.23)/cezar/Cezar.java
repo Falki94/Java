@@ -1,7 +1,10 @@
 package cezar;
 
 public class Cezar {
-
+/**
+ *
+ * @author Falki
+ */
     public static String cypher(String tekst) {
         char[] ca = tekst.toCharArray();
         StringBuilder sb = new StringBuilder();
