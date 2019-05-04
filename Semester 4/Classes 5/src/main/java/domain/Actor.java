@@ -1,5 +1,8 @@
 package domain;
-
+/**
+ *
+ * @author Falki
+ */
 public class Actor {
 
     private int id;
