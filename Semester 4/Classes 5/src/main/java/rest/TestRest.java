@@ -6,6 +6,10 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+/**
+ *
+ * @author Falki
+ */
 @Path("/test")
 public class TestRest {
 
