@@ -8,10 +8,7 @@ public class Actor {
     private int id;
     private String name;
     private String surname;
-    /**
-     * 
-     * @return 
-     */
+
     public int getId() {
         return id;
     }
