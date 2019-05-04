@@ -1,5 +1,9 @@
 package domain;
 
+/**
+ *
+ * @author Falki
+ */
 import java.util.List;
 
 public class Movie {
